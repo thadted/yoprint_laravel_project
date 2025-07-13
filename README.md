@@ -20,6 +20,18 @@ $ npm install
 
 ### 3. Environment setup
 - Copy `.env.example` to `.env` and configure your database and other environment variables as needed.
+- Example database settings in `.env`:
+```
+DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
+# Or for MySQL:
+# DB_CONNECTION=mysql
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=yoprint
+# DB_USERNAME=root
+# DB_PASSWORD=
+```
 - Generate application key:
 ```bash
 $ php artisan key:generate
