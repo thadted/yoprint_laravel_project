@@ -5,7 +5,7 @@
 ### 1. Clone the repository
 ```bash
 # Clone this repo and cd into the project directory
-$ git clone <your-repo-url>
+$ git clone https://github.com/thadted/yoprint_laravel_project.git
 $ cd yoprint_laravel_project/app
 ```
 
